@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+echo "Starting full install..."
+
 sudo apt-get install docker
 sudo apt-get install docker-compose
 sudo apt-get install git
