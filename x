@@ -1,14 +1,6 @@
 #!/usr/bin/env bash
 
 echo "Starting full install..."
-
-sudo apt-get install docker
-echo "Docker installed +"
-sudo apt-get remove docker-compose
-sudo pip install -U docker-compose
-sudo chmod +x /usr/local/bin/docker-compose
-docker-compose -v
-echo "Docker-compose installed +"
 sudo apt-get install git
 echo "Git installed +"
 git clone https://github.com/loisoj/yupe-docker.git
