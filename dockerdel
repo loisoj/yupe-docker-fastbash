@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+sudo apt purge *docker*
+sudo apt autoremove -y --purge *docker*
+sudo autoclean
+sudo groupdel docker
