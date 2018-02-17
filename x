@@ -5,10 +5,10 @@ sudo apt-get install git
 echo "Git installed +"
 git clone https://github.com/loisoj/yupe-docker.git
 echo "git clone end +"
-chmod +x ~/yupe-docker/yupe
+chmod +x ./yupe-docker/yupe
 cd yupe-docker
-~/yupe-docker/yupe set-env dev
-~/yupe-docker/yupe alive
+./yupe set-env dev
+./yupe alive
 echo "yupe docker installed +"
 echo "Base Started! +"
 echo " "
